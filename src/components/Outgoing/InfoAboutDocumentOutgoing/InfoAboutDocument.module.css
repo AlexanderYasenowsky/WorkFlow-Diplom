@@ -1,0 +1,98 @@
+.addInfo{
+  background-color: whitesmoke;
+  height: 80vh;
+  max-height: 1200px;
+  width:100%;
+  overflow: auto;
+  font-size: 18px;
+  margin-right: 1px;
+  box-shadow: 0 0 10px rgba(0,0,105,1);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.blockInfo{
+  margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nameOfDoc{
+  text-align: center;
+  color: blue;
+}
+
+.blockInfo > div{
+  margin: 0 auto;
+  width: 30%;
+  height: 30vh;
+}
+
+.textInfo{
+  resize: none;
+  width: 100%;
+  height: 160px;
+}
+
+.additionalInfoButtons {
+  margin: 10px;
+  font-size: 18px;
+  background: white;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid grey;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  transition: .2s ease-in-out;
+}
+
+.additionalInfoButtons:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255,0,255,.1), rgba(255,255,255,.5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -85px;
+  transform: skewX(-45deg);
+}
+
+.additionalInfoButtons:hover {
+  background: #3f5efb;
+  color: #fff;
+}
+.additionalInfoButtons:hover:before {
+  left: 200px;
+  transition: .5s ease-in-out;
+}
+
+.link {
+  color:blue;
+}
+
+.link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.back{
+  width: 100px;
+  height: 50px;
+  background-color: white;
+}
+
+.tbCont{
+  text-decoration: underline;
+}
+
+.inputFile{
+  background-color: rgba(89,0,255);
+  color: white;
+  border-radius: 4px;
+}

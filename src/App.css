@@ -1,0 +1,13 @@
+body{
+  background-image: url(./components/pictures/fon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:10px;
+  overflow-x: hidden;
+}
+
+.App{
+  margin: 0 auto;
+  max-width: 1300px;
+  height: 100vh;
+}

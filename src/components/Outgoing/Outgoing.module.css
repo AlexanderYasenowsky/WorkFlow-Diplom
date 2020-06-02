@@ -1,0 +1,41 @@
+.outgoing{
+  background-color: whitesmoke;
+  max-height: 1500px;
+  width:100%;
+  overflow: auto;
+  font-size: 18px;
+  box-shadow: 0 0 10px rgba(0,0,105,1);
+  overflow-x: hidden;
+}
+
+.thead_style{
+  background-color: #3f5efb;
+  color: white;
+}
+
+.flex_container{
+  display: flex;
+  height: 80vh;
+  max-height: 1200px;
+}
+
+.flex_container>div{
+  width: 100%;
+  height: 100%;
+}
+
+.flex_container>div:nth-child(1){
+  width: 200px;
+}
+
+div>table{
+  margin-left: 1px;
+}
+
+.find_input{
+  width: 90%;
+}
+
+.buttonFind{
+  width: 10%;
+}

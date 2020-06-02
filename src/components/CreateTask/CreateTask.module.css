@@ -1,0 +1,97 @@
+.createTask{
+    background-color: whitesmoke;
+    max-height: 1300px;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0,0,105,1);
+}
+
+.flex_container{
+  display: flex;
+  height: 80vh;
+  max-height: 1200px;
+}
+
+.flex_container>div{
+  width: 100%;
+  height: 100%;
+}
+
+.flex_container>div:nth-child(1){
+  width: 250px;
+}
+
+.info_flex_container{
+  background-color: whitesmoke;
+  display: flex;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 15px;
+  width:100%;
+
+}
+
+.inputTask {
+    margin-top: 12.5px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+.textareaTask{
+    height: 60%;
+    width: 90%;
+    resize: none;
+    margin-top: 12.5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+}
+
+.optionTask{
+  width: 180px;
+  margin-top: 11px;
+}
+
+.status{
+  font-size: 24px;
+  color: rgba(89,0,255);
+}
+
+
+.addButton {
+  font-size: 18px;
+  background: white;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid grey;
+  border-radius: 6px;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  transition: .2s ease-in-out;
+}
+
+.addButton:before {
+  content: "";
+  background: linear-gradient(90deg, rgba(255,0,255,.1), rgba(255,255,255,.5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -85px;
+  transform: skewX(-45deg);
+}
+
+.addButton:hover {
+  background: #3f5efb;
+  color: #fff;
+}
+.addButton:hover:before {
+  left: 200px;
+  transition: .5s ease-in-out;
+}

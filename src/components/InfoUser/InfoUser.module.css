@@ -1,0 +1,43 @@
+.infoUser{
+    background-color: whitesmoke;
+    max-height: 1300px;
+    width: 100%;
+    font-size: 20px;
+    box-shadow: 0 0 10px rgba(0,0,105,1);
+}
+
+.flex_container{
+  display: flex;
+  height: 80vh;
+  max-height: 1200px;
+}
+
+.flex_container>div{
+  width: 100%;
+  height: 100%;
+}
+
+.flex_container>div:nth-child(1){
+  width: 250px;
+}
+
+.info_flex_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info_flex_container>div{
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.info_flex_container>div:nth-child(2){
+  border-left-style: groove;
+  border-width: 1px;
+}
+
+.greeting{
+  font-size: 28px;
+}

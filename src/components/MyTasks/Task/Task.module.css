@@ -1,0 +1,19 @@
+.task{
+ border: 1px solid #aaa;
+ border-radius: 2px;
+}
+
+.taskStarted{
+  background-color: #FFBF00;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  margin-right: 10px;
+  color: blue;
+}
+
+.taskStopped{
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  margin-right: 10px;
+  background-color: MediumSeaGreen;
+}

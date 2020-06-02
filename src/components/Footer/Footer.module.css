@@ -1,0 +1,20 @@
+.foot{
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(90deg, rgba(0,25,150,1) 83%, rgba(89,0,255,0) 100%, rgba(0,212,255,0) 100%);
+  color: white;
+  display: flex;
+  font-size: 14px;
+}
+
+.foot>div{
+  margin-top:6px;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+}
+
+.foot>div:nth-child(-n+1){
+  border-right-style: solid;
+  border-right-width: 2px;
+}
